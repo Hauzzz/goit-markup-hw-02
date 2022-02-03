@@ -55,13 +55,16 @@ margin-left: auto;
 
 .word_web {
     color: #2196F3;
+    font-family: Raleway;
     font-size: 26px;
     line-height: 2em;
     letter-spacing: 0.03em
+    
 }
 
 .word_studio {
     color: black;
+    font-family: Raleway;
     font-size: 26px;
     line-height: 2em;
     letter-spacing: 0.03em
@@ -77,8 +80,12 @@ margin-left: auto;
     color: black;
     margin-left: 50px;
     text-decoration: none;
-    
-    letter-spacing: 0.03em
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     
     
 }
@@ -88,7 +95,11 @@ margin-left: auto;
     justify-content: space-between;
     display: flex;
     margin-left: 50px;
-   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     
     
     text-align: right;
@@ -133,6 +144,11 @@ margin-left: auto;
     
     
 
+}
+
+.maintext_list {
+    color: 
+    #757575;
 }
 
 
@@ -182,6 +198,12 @@ justify-content: space-between;
 
 .maintext_pros1 {
     color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
 }
 
 .mainpool_text {
@@ -242,7 +264,7 @@ justify-content: space-between;
     
 }
 
-.street {
+.address {
     color: white;
     margin-left: 100px;
     margin-top: 60px;
