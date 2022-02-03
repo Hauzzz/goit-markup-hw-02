@@ -1,0 +1,346 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    
+    
+
+}
+
+.container{
+padding-left: 15px;
+padding-right: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+.main_container {
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+.head_line  {
+    
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.links1 {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    margin-right: 331px;
+    margin-left: 91px;
+    
+    
+    
+
+    
+}
+
+.header {
+    background-color: white ;
+
+}
+
+.word_web {
+    color: #2196F3;
+    font-size: 26px;
+    line-height: 2em;
+    letter-spacing: 0.03em
+}
+
+.word_studio {
+    color: black;
+    font-size: 26px;
+    line-height: 2em;
+    letter-spacing: 0.03em
+}
+
+.nav:hover,.nav:focus {
+    
+    color: #2196F3;
+    
+}
+
+.nav {
+    color: black;
+    margin-left: 50px;
+    text-decoration: none;
+    
+    letter-spacing: 0.03em
+    
+    
+}
+
+.contacts_section {
+    color: #757575;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50px;
+   
+    
+    
+    text-align: right;
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 0.02em
+    
+    
+    
+    
+    
+    
+    
+   
+}
+
+.contacts_section:hover,.contacts_section:focus {
+    color: #2196F3;
+}
+
+
+
+.maintext {
+    color: white;
+    
+    background-color: #2F303A;
+    
+    text-align: center;
+
+    font-size: 44px;
+
+    display: flex;
+    justify-content: center;
+    margin-right: 252px;
+    padding-top: 200px;
+    margin-left: 252px;
+    
+    
+    
+    
+    
+    
+
+}
+
+
+.button {
+    cursor: pointer;
+    color: white; 
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 2.5em;
+    
+    text-align: center;
+    cursor: pointer;
+    background-color: #2196F3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+    
+   
+}
+.shapka {
+    overflow: hidden;
+    list-style: none;
+}
+
+.mainbar {
+    background-color: #2F303A;
+    width: 1200px;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+
+
+.pros_text {
+display: flex;
+text-align: center;
+justify-content: space-between;
+
+
+}
+
+.maintext_pros1 {
+    color: #757575;
+}
+
+.mainpool_text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.imgstuff {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    
+   
+}
+
+.our_team {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.team_stuff {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.reg_cust {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.regular_customers {
+    width: 1200px;
+}
+
+
+
+.info_table {
+    background-color: #2F303A;
+    width: 1200px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+}
+
+.word_studiof {
+    color: white;
+    font-size: 26px;
+    line-height: 2em;
+    
+}
+
+.street {
+    color: white;
+    margin-left: 100px;
+    margin-top: 60px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+   
+}
+.contacts_section2 {
+    margin-left: 100px;
+    color: #757575;
+    display: flex;
+    text-decoration: none;
+    margin-top: 9px;
+    
+   
+}
+
+.contacts_section2:hover,.contacts_section2:focus {
+    color: #2196F3;
+}
+.nav2 {
+    margin-left: 135px;
+    color: black;
+    text-decoration: none;
+    margin-top: 60px;
+    
+}
+
+
+
+.buttons2 {
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #F5F4FA;
+    border-radius: 10px;
+    font-family: Roboto;
+    
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 1200px;
+    border: black;
+    
+    
+}
+
+.portfolio {
+    width: 1200px;
+}
+
+.info_table {
+    width: 1200px;
+}
+
+.middlebar_section {
+    width: 1200px;
+}
+ .pros_text {
+    list-style: none;
+ }
+
+ .footer_list {
+    list-style: none;
+ }
+
+ .icon {
+    display: inline-block;
+    justify-content: space-between;
+    width: 32px;
+    height: 32px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .join {
+      color: white;
+      
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        margin-left: 470px;
+  }
+
+  .icon2 {
+      color: #757575;
+      height: 10px;
+      width: 10px;
+  }
