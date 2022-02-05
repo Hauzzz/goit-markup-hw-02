@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: white;
+    background-color: #ffffff;
     
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -49,7 +49,7 @@ margin-left: auto;
 }
 
 .header {
-    background-color: white ;
+    background-color: #ffffff ;
 
 }
 
@@ -124,7 +124,7 @@ margin-left: auto;
 
 
 .maintext {
-    color: white;
+    color: #ffffff;
     
     background-color: #2F303A;
     
@@ -154,7 +154,7 @@ margin-left: auto;
 
 .button {
     cursor: pointer;
-    color: white; 
+    color: #ffffff; 
     width: 200px;
     height: 50px;
     font-size: 24px;
@@ -258,14 +258,14 @@ justify-content: space-between;
 }
 
 .word_studiof {
-    color: white;
+    color: #ffffff;
     font-size: 26px;
     line-height: 2em;
     
 }
 
 .address {
-    color: white;
+    color: #ffffff;
     margin-left: 100px;
     margin-top: 60px;
     text-decoration: none;
@@ -351,7 +351,7 @@ justify-content: space-between;
     fill: currentColor;
   }
   .join {
-      color: white;
+      color: #ffffff;
       
         font-style: normal;
         font-weight: bold;
