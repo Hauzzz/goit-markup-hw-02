@@ -88,7 +88,10 @@ ul {
     
     
 }
-
+.nav + .nav {
+margin-left: 50px;
+}
+a{text-decoration: none;}
 .contacts_section {
     color: #757575;
     justify-content: space-between;
@@ -113,6 +116,9 @@ ul {
     
     
    
+}
+.contacts_section + .contacts_section {
+    margin-left: 50px;
 }
 
 .contacts_section:hover,.contacts_section:focus {
@@ -157,25 +163,30 @@ ul {
 }
 
 
-.button {
+.hero_btn {
     cursor: pointer;
-    color: #ffffff; 
     width: 200px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
     height: 50px;
-    font-size: 24px;
-    line-height: 2.5em;
-    
-    text-align: center;
-    cursor: pointer;
+    left: 700px;
+    top: 430px;
     background-color: #2196F3;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-    
-    
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
+ 
+
+
+ 
+
     
    
+}
+.hero_btn :hover, .hero_btn :focus {
+    color: #2196F3;
 }
 .shapka {
     overflow: hidden;
@@ -201,7 +212,7 @@ justify-content: space-between;
 
 }
 
-.maintext_pros1 {
+.maintext_first {
     color: #757575;
     font-style: normal;
     font-weight: normal;
@@ -302,17 +313,32 @@ justify-content: space-between;
 
 
 
-.buttons_portfolio {
-    text-align: center;
-    justify-content: space-around;
-    list-style: none;
-    display: flex;
-    margin-left: 300px;
-    margin-right: 300px;
-    background-color: #F5F4FA;
-    border-radius: 10px;
-    font-family: Roboto;
+.portfolio_btns {
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
     
+    background: #F5F4FA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: 
+    #212121;
+    font-family: Raleway;
+    cursor: pointer;
+
+}
+
+.portfolio_btns :hover, .portfolio_btns :focus {
+    background-color: #2196F3;
+    color: #ffffff;
 }
 
 .list {
