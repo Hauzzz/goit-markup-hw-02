@@ -41,6 +41,10 @@ body {
 
     
 }
+.contacts_section_header {
+    display: flex;
+    margin-left: 331px;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -337,8 +341,8 @@ justify-content: space-between;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    
     color: var(--darkgrey-color);
-    font-family: Raleway;
     cursor: pointer;
 
 
