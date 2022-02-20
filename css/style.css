@@ -323,7 +323,7 @@ justify-content: space-between;
     color: var(--blue-color);
 }
 .nav_footer {
-    margin-left: 135px;
+    margin-left: 150px;
     color: var(--black-color);
     text-decoration: none;
     margin-top: 60px;
@@ -338,7 +338,7 @@ justify-content: space-between;
     left: 576px;
     top: 174px;
     
-    background-color: var(--white-color);
+    background-color: var(--light-grey_color);
     border: 1px ;
     box-sizing: border-box;
     border-radius: 4px;
@@ -352,11 +352,17 @@ justify-content: space-between;
     
     color: var(--darkgrey-color);
     cursor: pointer;
-
+    margin-left: 5px;
 
 }
+.buttons_portfolio{
+display: flex;
+justify-content: center;
+margin-left: 346px;
+margin-right: 346px;
+}
 
-.portfolio_btns :hover, .portfolio_btns :focus {
+.buttons_portfolio :hover, .buttons_portfolio :focus {
     background-color: var(--blue-color);
     color: var(--white-color);
 }
@@ -368,6 +374,7 @@ justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
     width: 1200px;
+    padding-bottom: 94px;
     
     
     
@@ -392,7 +399,7 @@ justify-content: space-between;
 
  .footer_list {
     list-style: none;
-    margin-left: 135px;
+    margin-left: 150px;
  }
 
  .icon {
@@ -442,5 +449,17 @@ p{
     --black-color: black;
     --grey_color_s: #2F303A;
     --light-grey_color: #F5F4FA;
+    --slight-grey_color: #EEEEEE;
   }
+
+.portfolio_cards {
+    border: 1px solid var(--slight-grey_color);
+    display: flex;
+    margin-top: 30px;
+}
+
+.maintext_list {
+    margin-left: 24px;
+    margin-right: 24px;
+}
 
