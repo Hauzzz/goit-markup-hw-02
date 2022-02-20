@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--white-color);
-    
+    background-color: var(--white-colour);
+
     font-size: 14px;
     letter-spacing: 0.02em;
     
@@ -52,12 +52,12 @@ ul {
 }
 
 .header {
-    background-color: var(--white-color);
+    background-color: var(--white-colour);
 
 }
 
 .word_web {
-    color: var(--blue-color);
+    color: var(--blue-colour);
     font-family: Raleway;
     font-size: 26px;
     line-height: 2em;
@@ -66,7 +66,7 @@ ul {
 }
 
 .word_studio {
-    color: var(--black-color);
+    color: var(--black-colour);
     font-family: Raleway;
     font-size: 26px;
     line-height: 2em;
@@ -75,12 +75,12 @@ ul {
 
 .nav:hover,.nav:focus {
     
-    color: var(--blue-color);
+    color: var(--blue-colour);
     
 }
 
 .nav {
-    color: var(--black-color);
+    color: var(--black-colour);
     
     text-decoration: none;
     font-family: Roboto;
@@ -97,7 +97,7 @@ margin-left: 50px;
 }
 a{text-decoration: none;}
 .contacts_section {
-    color: var(--grey-color);
+    color: var(--grey-colour);
     justify-content: space-between;
     display: flex;
     font-family: Roboto;
@@ -127,15 +127,15 @@ a{text-decoration: none;}
 }
 
 .contacts_section:hover,.contacts_section:focus {
-    color: var(--blue-color);
+    color: var(--blue-colour);
 }
 
 
 
 .maintext {
-    color: var(--white-color);
+    color: var(--white-colour);
     
-    background-color: var(--grey-color_s);
+    background-color: var(--grey_colour_s);
     
     text-align: center;
 
@@ -168,9 +168,7 @@ a{text-decoration: none;}
     width: 1200px;
     
     }
-.maintext_list {
-    color: var(--grey-color);
-}
+
 
 
 .hero_btn {
@@ -181,11 +179,11 @@ a{text-decoration: none;}
     font-family: Roboto;
     font-size: 16px;
     line-height: 30px;
-    color: var(--white-color);
+    color: var(--white-colour);
     height: 50px;
     left: 700px;
     top: 430px;
-    background-color: var(--blue-color);
+    background-color: var(--blue-colour);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
  
@@ -197,7 +195,7 @@ a{text-decoration: none;}
    
 }
 .hero_btn :hover, .hero_btn :focus {
-    color: var(--blue-color);
+    color: var(--blue-colour);
 }
 .shapka {
     overflow: hidden;
@@ -205,7 +203,7 @@ a{text-decoration: none;}
 }
 
 .mainbar {
-    background-color: var(--grey-color_s);
+    background-color: var(--grey_colour_s);
     width: 1200px;
     text-align: center;
     padding-top: 94px;
@@ -224,13 +222,13 @@ justify-content: space-between;
 }
 
 .maintext_first {
-    color: var(--grey-color);
+    color: var(--grey-colour);
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    
 }
 
 .mainpool_text {
@@ -252,7 +250,13 @@ justify-content: space-between;
     display: flex;
     text-align: center;
     justify-content: center;
-    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team_stuff {
@@ -263,6 +267,10 @@ justify-content: space-between;
     
 }
 
+.team {
+    background-color: var(--light-grey_colour);
+    padding-top: 94px;
+}
 .reg_cust {
     display: flex;
     justify-content: space-between;
@@ -277,7 +285,7 @@ justify-content: space-between;
 
 
 .info_table {
-    background-color: var(--grey-color_s);
+    background-color: var(--grey-colour_s);
     width: 1200px;
     height: 252px;
     left: 0px;
@@ -285,25 +293,25 @@ justify-content: space-between;
 }
 
 .word_studiof {
-    color: var(--white-color);
+    color: var(--white-colour);
     font-size: 26px;
     line-height: 2em;
     
 }
 
 .address {
-    color: var(--white-color);
-    margin-left: 100px;
+    color: var(--white-colour);
     margin-top: 60px;
     text-decoration: none;
     list-style: none;
+ 
     
     
    
 }
 .contacts_section_footer {
-    margin-left: 100px;
-    color: var(--grey-color);
+ 
+    color: var(--grey-colour);
     display: flex;
     text-decoration: none;
     margin-top: 9px;
@@ -311,12 +319,12 @@ justify-content: space-between;
    
 }
 
-.contacts_section2:hover,.contacts_section2:focus {
-    color: var(--blue-color);
+.contacts_section_footer:hover,.contacts_section2:focus {
+    color: var(--blue-colour);
 }
 .nav_footer {
     margin-left: 135px;
-    color: var(--black-color);
+    color: var(--black-colour);
     text-decoration: none;
     margin-top: 60px;
     
@@ -330,7 +338,7 @@ justify-content: space-between;
     left: 576px;
     top: 174px;
     
-    background-color: var(--white-color);
+    background-color: var(--white-colour);
     border: 1px ;
     box-sizing: border-box;
     border-radius: 4px;
@@ -342,15 +350,15 @@ justify-content: space-between;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: var(--darkgrey-color);
+    color: var(--darkgrey-colour);
     cursor: pointer;
 
 
 }
 
 .portfolio_btns :hover, .portfolio_btns :focus {
-    background-color: var(--blue-color);
-    color: var(--white-color);
+    background-color: var(--blue-colour);
+    color: var(--white-colour);
 }
 
 .list {
@@ -371,6 +379,8 @@ justify-content: space-between;
 
 .info_table {
     width: 1200px;
+    background-color: var(--grey_colour_s);
+    padding-top: 60px;
 }
 
 .middlebar_section {
@@ -382,6 +392,7 @@ justify-content: space-between;
 
  .footer_list {
     list-style: none;
+    margin-left: 135px;
  }
 
  .icon {
@@ -394,7 +405,7 @@ justify-content: space-between;
     fill: currentColor;
   }
   .join {
-    color: var(--white-color);
+    color: var(--white-colour);
       
         font-style: normal;
         font-weight: bold;
@@ -405,7 +416,7 @@ justify-content: space-between;
   }
 
   .icons_team_stuff {
-    color: var(--grey-color);
+    color: var(--grey-colour);
       height: 10px;
       width: 10px;
   }
@@ -418,17 +429,18 @@ p{
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-
+    color: var(--grey-colour);
 
     letter-spacing: 0.03em;
 }
 
   :root {
-    --blue-color: #2196F3;
+    --blue-colour: #2196F3;
     --grey-colour: #757575;
     --white-colour: #ffffff;
     --darkgrey-colour: #212121;
     --black-colour: black;
     --grey_colour_s: #2F303A;
+    --light-grey_colour: #F5F4FA;
   }
 
