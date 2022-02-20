@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--white-colour);
+    background-color: var(--white-color);
 
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -52,12 +52,12 @@ ul {
 }
 
 .header {
-    background-color: var(--white-colour);
+    background-color: var(--white-color);
 
 }
 
 .word_web {
-    color: var(--blue-colour);
+    color: var(--blue-color);
     font-family: Raleway;
     font-size: 26px;
     line-height: 2em;
@@ -66,7 +66,7 @@ ul {
 }
 
 .word_studio {
-    color: var(--black-colour);
+    color: var(--black-color);
     font-family: Raleway;
     font-size: 26px;
     line-height: 2em;
@@ -75,12 +75,12 @@ ul {
 
 .nav:hover,.nav:focus {
     
-    color: var(--blue-colour);
+    color: var(--blue-color);
     
 }
 
 .nav {
-    color: var(--black-colour);
+    color: var(--black-color);
     
     text-decoration: none;
     font-family: Roboto;
@@ -97,7 +97,7 @@ margin-left: 50px;
 }
 a{text-decoration: none;}
 .contacts_section {
-    color: var(--grey-colour);
+    color: var(--grey-color);
     justify-content: space-between;
     display: flex;
     font-family: Roboto;
@@ -127,15 +127,15 @@ a{text-decoration: none;}
 }
 
 .contacts_section:hover,.contacts_section:focus {
-    color: var(--blue-colour);
+    color: var(--blue-color);
 }
 
 
 
 .maintext {
-    color: var(--white-colour);
+    color: var(--white-color);
     
-    background-color: var(--grey_colour_s);
+    background-color: var(--grey_color_s);
     
     text-align: center;
 
@@ -179,11 +179,11 @@ a{text-decoration: none;}
     font-family: Roboto;
     font-size: 16px;
     line-height: 30px;
-    color: var(--white-colour);
+    color: var(--white-color);
     height: 50px;
     left: 700px;
     top: 430px;
-    background-color: var(--blue-colour);
+    background-color: var(--blue-color);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
  
@@ -195,7 +195,7 @@ a{text-decoration: none;}
    
 }
 .hero_btn :hover, .hero_btn :focus {
-    color: var(--blue-colour);
+    color: var(--blue-color);
 }
 .shapka {
     overflow: hidden;
@@ -203,7 +203,7 @@ a{text-decoration: none;}
 }
 
 .mainbar {
-    background-color: var(--grey_colour_s);
+    background-color: var(--grey_color_s);
     width: 1200px;
     text-align: center;
     padding-top: 94px;
@@ -222,7 +222,7 @@ justify-content: space-between;
 }
 
 .maintext_first {
-    color: var(--grey-colour);
+    color: var(--grey-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -268,7 +268,7 @@ justify-content: space-between;
 }
 
 .team {
-    background-color: var(--light-grey_colour);
+    background-color: var(--light-grey_color);
     padding-top: 94px;
 }
 .reg_cust {
@@ -285,7 +285,7 @@ justify-content: space-between;
 
 
 .info_table {
-    background-color: var(--grey-colour_s);
+    background-color: var(--grey-color_s);
     width: 1200px;
     height: 252px;
     left: 0px;
@@ -293,14 +293,14 @@ justify-content: space-between;
 }
 
 .word_studiof {
-    color: var(--white-colour);
+    color: var(--white-color);
     font-size: 26px;
     line-height: 2em;
     
 }
 
 .address {
-    color: var(--white-colour);
+    color: var(--white-color);
     margin-top: 60px;
     text-decoration: none;
     list-style: none;
@@ -311,7 +311,7 @@ justify-content: space-between;
 }
 .contacts_section_footer {
  
-    color: var(--grey-colour);
+    color: var(--grey-color);
     display: flex;
     text-decoration: none;
     margin-top: 9px;
@@ -320,11 +320,11 @@ justify-content: space-between;
 }
 
 .contacts_section_footer:hover,.contacts_section2:focus {
-    color: var(--blue-colour);
+    color: var(--blue-color);
 }
 .nav_footer {
     margin-left: 135px;
-    color: var(--black-colour);
+    color: var(--black-color);
     text-decoration: none;
     margin-top: 60px;
     
@@ -338,7 +338,7 @@ justify-content: space-between;
     left: 576px;
     top: 174px;
     
-    background-color: var(--white-colour);
+    background-color: var(--white-color);
     border: 1px ;
     box-sizing: border-box;
     border-radius: 4px;
@@ -350,15 +350,15 @@ justify-content: space-between;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: var(--darkgrey-colour);
+    color: var(--darkgrey-color);
     cursor: pointer;
 
 
 }
 
 .portfolio_btns :hover, .portfolio_btns :focus {
-    background-color: var(--blue-colour);
-    color: var(--white-colour);
+    background-color: var(--blue-color);
+    color: var(--white-color);
 }
 
 .list {
@@ -379,7 +379,7 @@ justify-content: space-between;
 
 .info_table {
     width: 1200px;
-    background-color: var(--grey_colour_s);
+    background-color: var(--grey_color_s);
     padding-top: 60px;
 }
 
@@ -405,7 +405,7 @@ justify-content: space-between;
     fill: currentColor;
   }
   .join {
-    color: var(--white-colour);
+    color: var(--white-color);
       
         font-style: normal;
         font-weight: bold;
@@ -416,7 +416,7 @@ justify-content: space-between;
   }
 
   .icons_team_stuff {
-    color: var(--grey-colour);
+    color: var(--grey-color);
       height: 10px;
       width: 10px;
   }
@@ -429,18 +429,18 @@ p{
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    color: var(--grey-colour);
+    color: var(--grey-color);
 
     letter-spacing: 0.03em;
 }
 
   :root {
-    --blue-colour: #2196F3;
-    --grey-colour: #757575;
-    --white-colour: #ffffff;
-    --darkgrey-colour: #212121;
-    --black-colour: black;
-    --grey_colour_s: #2F303A;
-    --light-grey_colour: #F5F4FA;
+    --blue-color: #2196F3;
+    --grey-color: #757575;
+    --white-color: #ffffff;
+    --darkgrey-color: #212121;
+    --black-color: black;
+    --grey_color_s: #2F303A;
+    --light-grey_color: #F5F4FA;
   }
 
