@@ -1,0 +1,109 @@
+.features__pros_text {
+display: block;
+align-items: center;
+text-align: center;
+justify-content: center;
+/*/ margin: -15px;/*/ 
+margin-bottom: -30px;
+@media screen and (min-width: 768px) {
+    display: flex;
+    margin-left: -30px;
+    flex-wrap: wrap;
+    
+}
+
+
+}
+
+.features__list-item_pros{
+   /*/  margin: 15px; /*/ 
+   margin-bottom: 30px;
+   @media screen and (min-width: 768px) {
+    margin-left: 30px;
+    width: calc(100%/2-30px)
+}
+@media screen and (min-width: 1200px) {
+    width: calc(100%/4-30px)
+}
+}
+
+
+.features__icon-list{
+    background-color: var(--h_b_color);
+    border-radius: 4px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.features {
+   /*/  padding-top: 94px;
+    padding-bottom: 94px;/*/ 
+    padding-bottom: 60px;
+    padding-top: 60px
+}
+
+.features__stuffsvg{
+    height: 70px;
+    width: 70px;
+   
+   }
+
+   .features__capitaltext_pros{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    @media screen and (min-width: 768px) {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+}
+
+
+.features__maintext_first {
+    color: var(--grey-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    width: 100%;
+    text-align: left;
+    
+    @media screen and (min-width: 768px) {
+        color: var(--grey-color);
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        width: 270px;
+        text-align: left;
+    }
+
+}

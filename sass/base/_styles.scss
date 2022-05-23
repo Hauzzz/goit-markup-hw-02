@@ -1,0 +1,137 @@
+
+
+
+.stuffsvg{
+ height: 70px;
+ width: 70px;
+
+}
+
+
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
+
+
+.nav:hover,.nav:focus {
+    
+    color: var(--blue-color);
+    
+}
+
+.current {
+    color: var(--blue-color);
+    position: relative;
+    
+}
+
+
+
+
+.current::after {
+    content: '';
+    width: 100%;
+    border-radius: 2px;
+    position: absolute;
+    background-color: var(--blue-color);
+    left: 0;
+    bottom: -32px;
+    display: block;
+    height: 4px;
+}
+
+
+
+
+
+
+.container{
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding: 0 15px;
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
+    }
+    }
+
+
+
+
+
+
+
+.connect {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+
+
+ .eclipse {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: rgba(255, 255, 255, 0.1);      
+ }
+
+
+
+ .icon {
+    display: inline-block;
+    justify-content: space-between;
+    width: 32px;
+    height: 32px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
