@@ -1,8 +1,4 @@
-.clients {
 
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .clients__text {
     font-family: Roboto;
@@ -36,6 +32,7 @@
     @media screen and (min-width: 1200px) {
         display: flex;
         margin-left: -30px;
+        flex-wrap: nowrap;
         
         
     }

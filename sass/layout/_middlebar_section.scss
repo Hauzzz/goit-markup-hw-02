@@ -11,11 +11,24 @@
     background-image: linear-gradient(
     to top left,
     var(--gradient_grey-color),
-    var(--gradient_grey-color)),url(../images/hero.jpg);
+    var(--gradient_grey-color)),url(../images/Headerimg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: auto;
+    @media screen and (min-width: 768px) {
+        background-image: linear-gradient(
+            to top left,
+            var(--gradient_grey-color),
+            var(--gradient_grey-color)),url(../images/Headerimg1.png);
+    }
+    @media screen and (min-width: 1200px) {
+        background-image: linear-gradient(
+            to top left,
+            var(--gradient_grey-color),
+            var(--gradient_grey-color)),url(../images/hero.jpg);
+            
+    }
 
 }
 

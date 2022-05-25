@@ -1,10 +1,16 @@
 .main_pool {
-    padding-bottom: 94px;
+
+    display: none;
+    @media screen and (min-width: 1200px) {
+    display: flex;
+    }
+
+
 }
 
 .main_pool__imgstuff {
-   /*/display: flex;
-    margin: -15px;/*/
+   display: flex;
+    margin: -15px
 }
 .main_pool__stuffimg {
     margin: 15px;
