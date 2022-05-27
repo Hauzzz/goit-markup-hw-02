@@ -1120,19 +1120,33 @@ summary {
 .web-word {
   color: var(--blue-color);
   font-family: Raleway;
-  font-size: 26px;
-  line-height: 2;
+  font-size: 24px;
+  line-height: 1.1px;
   letter-spacing: 0.03em;
   margin-top: auto;
   margin-bottom: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .web-word {
+    font-size: 26px;
+    line-height: 2;
+  }
+}
+
 .word_studio {
   color: var(--black-color);
   font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 1.1px;
   letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 1200px) {
+  .word_studio {
+    font-size: 26px;
+    line-height: 2;
+  }
 }
 
 .main_container__links {
@@ -1240,6 +1254,28 @@ a {
 .contactsicon-phone :hover .contactsicon-envelope :focus {
   fill: var(--blue-color);
   color: var(--blue-color);
+}
+
+.menu {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu:hover, .menu:focus {
+  fill: var(--blue-color);
+}
+
+.menu-svg {
+  width: 40px;
+  height: 40px;
+  fill: currentColor;
+}
+
+.menu-svg:hover, .menu-svg:focus {
+  fill: var(--blue-color);
 }
 
 .main_pool {
@@ -1412,6 +1448,12 @@ a {
   margin-bottom: 40px;
 }
 
+/*/
+@media screen and (min-width: 768px)
+.spacebf:not(nth-last-child(-n+2)) {
+    width: calc(100%/4-30px)
+}
+/*/
 .spacebf {
   margin-left: 8px;
 }
