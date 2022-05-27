@@ -47,7 +47,7 @@
     line-height: 1.7;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 696px;
+    width: 360px;
     margin:  0 auto;
     padding: auto;
     justify-content: center;
@@ -57,6 +57,12 @@
     @media screen and (min-width: 1200px) {
         font-size: 44px;
     }
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+        width: 696px;
+    }
+
+
 
     
 

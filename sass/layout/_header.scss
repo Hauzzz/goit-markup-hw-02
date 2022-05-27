@@ -44,8 +44,11 @@
 
 .main_container__links {
     
-    display: flex;
-    margin-left: 93px;
+display: none;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        margin-left: 93px;
+    }
     
     
 }
@@ -99,8 +102,16 @@
 
 
     .main_container__contacts_section {
-        display: flex;
-        margin-left: auto;
+        display: none;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+            flex-wrap: wrap;
+        }
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            margin-left: auto;
+        }
     }
 
 

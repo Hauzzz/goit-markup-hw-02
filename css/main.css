@@ -1136,8 +1136,14 @@ summary {
 }
 
 .main_container__links {
-  display: flex;
-  margin-left: 93px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main_container__links {
+    display: flex;
+    margin-left: 93px;
+  }
 }
 
 .nav {
@@ -1183,8 +1189,21 @@ a {
 }
 
 .main_container__contacts_section {
-  display: flex;
-  margin-left: auto;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main_container__contacts_section {
+    display: block;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main_container__contacts_section {
+    display: flex;
+    margin-left: auto;
+  }
 }
 
 .contacts_section + .contacts_section {
@@ -1324,7 +1343,7 @@ a {
   line-height: 1.7;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  width: 696px;
+  width: 360px;
   margin: 0 auto;
   padding: auto;
   justify-content: center;
@@ -1335,6 +1354,13 @@ a {
 @media screen and (min-width: 1200px) {
   .middlebar__maintext {
     font-size: 44px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .middlebar__maintext {
+    font-size: 44px;
+    width: 696px;
   }
 }
 
@@ -1378,10 +1404,12 @@ a {
 }
 
 .portfolio__buttons {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 50px;
+  /*/display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;/*/
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .spacebf {
