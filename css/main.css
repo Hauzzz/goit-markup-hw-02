@@ -29,6 +29,11 @@ ul {
   position: relative;
 }
 
+.current-mob {
+  color: var(--blue-color);
+  position: relative;
+}
+
 .current::after {
   content: '';
   width: 100%;
@@ -116,8 +121,8 @@ ul {
 }
 
 .modal {
-  min-width: 528px;
-  min-height: 581px;
+  min-width: 450px;
+  min-height: 609px;
   background-color: var(--white-color);
   border-radius: 4px;
   position: absolute;
@@ -125,6 +130,13 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    min-width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal-close-btn {
@@ -1262,6 +1274,13 @@ a {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
 }
 
 .menu:hover, .menu:focus {
@@ -1276,6 +1295,103 @@ a {
 
 .menu-svg:hover, .menu-svg:focus {
   fill: var(--blue-color);
+}
+
+.mob-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--white-color);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.mob-menubtn {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.mob-menubtn:hover, .mob-menubtn:focus {
+  fill: var(--blue-color);
+}
+
+.mob_nav {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+}
+
+.mob_nav:not(:last-child) {
+  margin-bottom: 36px;
+}
+
+.mob_contacts_section {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.25px;
+  letter-spacing: 0.02em;
+  color: var(--blue-color);
+  margin-bottom: 32px;
+}
+
+.mob_email_section {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: var(--grey-color);
+}
+
+.menu-links {
+  display: flex;
+  left: 0;
+}
+
+.mob-icons {
+  position: relative;
+}
+
+.mob-icons:not(:first-child) {
+  margin-left: 20px;
+}
+
+.mob-icons::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 22px;
+  background-color: var(--grey-color);
+  left: 0;
+}
+
+.amob-icons {
+  color: var(--blue-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .main_pool {
