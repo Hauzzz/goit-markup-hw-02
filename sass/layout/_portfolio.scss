@@ -31,6 +31,9 @@
 /*/
 .spacebf {
     margin-left: 8px;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 
@@ -103,9 +106,10 @@
 }
 
 .portfolio__list {
-    display: flex; 
+    
     flex-wrap: wrap;
-    flex-basis: 1200px;
+    
+
    margin-left: -30px;
    margin-top: -34px;
    margin-bottom: -30px;
@@ -115,16 +119,19 @@
    flex-direction: column;
    @media screen and (min-width: 768px) {
     display: flex;
-    margin-left: -30px;
-    flex-wrap: wrap;
-    
+
+    width: calc(100%/2-30px)
+}
+@media screen and (min-width: 768px) {
+    display: flex;
+    width: 100%;
 }
     
     
 }
 
 .portfolio_cards {
-    display: flex;
+
     margin-top: 34px;
     margin-left: 30px;
     position: relative;
@@ -135,7 +142,7 @@
         width: calc(100%/2-30px)
     }
     @media screen and (min-width: 1200px) {
-        width: calc(100%/4-30px)
+       display: flex;
     }
     
     
