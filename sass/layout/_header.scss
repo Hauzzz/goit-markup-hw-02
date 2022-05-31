@@ -117,7 +117,8 @@ display: none;
 
         @media screen and (min-width: 768px) {
             display: block;
-            flex-wrap: wrap;
+            
+
         }
         @media screen and (min-width: 1200px) {
             display: flex;
@@ -128,6 +129,9 @@ display: none;
 
     .contacts_section + .contacts_section {
         margin-left: 50px;
+        @media screen and (min-width: 1200px) {
+            margin-left: 50px;
+        }
     }
     
     

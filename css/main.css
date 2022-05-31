@@ -47,6 +47,7 @@ ul {
 }
 
 .container {
+  overflow-x: hidden;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
@@ -1238,7 +1239,6 @@ a {
 @media screen and (min-width: 768px) {
   .main_container__contacts_section {
     display: block;
-    flex-wrap: wrap;
   }
 }
 
@@ -1251,6 +1251,12 @@ a {
 
 .contacts_section + .contacts_section {
   margin-left: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts_section + .contacts_section {
+    margin-left: 50px;
+  }
 }
 
 .contacts_section:hover, .contacts_section:focus {
@@ -1665,14 +1671,13 @@ a {
 }
 
 .portfolio__list {
-  flex-wrap: wrap;
   margin-left: -30px;
+  flex-wrap: wrap;
   margin-top: -34px;
   margin-bottom: -30px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
