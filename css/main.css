@@ -50,12 +50,13 @@ ul {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  padding: 0 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media screen and (min-width: 320px) {
   .container {
-    max-width: 480px;
+    width: 320px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -63,7 +64,7 @@ ul {
 
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 480px;
+    width: 480px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -71,7 +72,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
     padding-bottom: 60px;
     padding-top: 60px;
   }
@@ -79,7 +80,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1306,7 +1307,8 @@ a {
 .menu-svg {
   width: 40px;
   height: 40px;
-  fill: currentColor;
+  stroke-width: 0;
+  fill: var(--black-color);
 }
 
 .menu-svg:hover, .menu-svg:focus {
@@ -1410,6 +1412,13 @@ a {
   overflow: hidden;
 }
 
+.menu-close {
+  width: 40x;
+  height: 40px;
+  stroke-width: 0;
+  fill: var(--black-color);
+}
+
 .main_pool {
   display: none;
 }
@@ -1511,7 +1520,7 @@ a {
   line-height: 1.7;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  width: 360px;
+  width: 100%;
   margin: 0 auto;
   padding: auto;
   justify-content: center;
@@ -1519,9 +1528,15 @@ a {
   align-items: center;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .middlebar__maintext {
-    font-size: 44px;
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .middlebar__maintext {
+    width: 360px;
   }
 }
 

@@ -47,15 +47,17 @@
     line-height: 1.7;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 360px;
+    width: 100%;
     margin:  0 auto;
     padding: auto;
     justify-content: center;
     text-align: center;
     align-items: center;
-    
-    @media screen and (min-width: 1200px) {
-        font-size: 44px;
+    @media screen and (min-width: 480px) {
+        width: 360px;
+    }    
+    @media screen and (min-width: 768px) {
+        width: 360px;
     }
     @media screen and (min-width: 1200px) {
         font-size: 44px;

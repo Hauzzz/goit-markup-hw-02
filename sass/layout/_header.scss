@@ -188,7 +188,8 @@ display: none;
     .menu-svg {
         width: 40px;
         height: 40px;
-        fill: currentColor;
+        stroke-width: 0;
+        fill: var(--black-color);
     }
 
     .menu-svg:hover, .menu-svg:focus{
@@ -295,4 +296,11 @@ left: 0;
 
 .no-scroll {
    overflow: hidden; 
+}
+
+.menu-close {
+    width: 40x;
+    height: 40px;
+    stroke-width: 0;
+    fill: var(--black-color);
 }
