@@ -47,7 +47,6 @@ ul {
 }
 
 .container {
-  overflow-x: hidden;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
@@ -114,6 +113,65 @@ ul {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+/*/.container{
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+    @media screen and (min-width: 320px) {
+        width: 320px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width: 480px) {
+        width: 480px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    }
+    /*/
+.container {
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    /*/.hero-section & {
+               padding: 0 60px;
+           }/*/
+  }
+  .container .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container .container {
+    width: 768px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container .container {
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .backdrop {
