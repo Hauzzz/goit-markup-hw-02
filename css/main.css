@@ -46,8 +46,39 @@ ul {
   height: 4px;
 }
 
+.connect {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.eclipse {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.icon {
+  display: inline-block;
+  justify-content: space-between;
+  width: 32px;
+  height: 32px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
 .container {
   margin-right: auto;
+  overflow-x: hidden;
+  overflow: hidden;
   margin-left: auto;
   width: 100%;
   padding-right: 15px;
@@ -80,94 +111,6 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-}
-
-.connect {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white-color);
-}
-
-.eclipse {
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.icon {
-  display: inline-block;
-  justify-content: space-between;
-  width: 32px;
-  height: 32px;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-/*/.container{
-    padding: 0 15px;
-    width: 100%;
-    margin: 0 auto;
-    @media screen and (min-width: 320px) {
-        width: 320px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    @media screen and (min-width: 480px) {
-        width: 480px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    @media screen and (min-width: 768px) {
-        width: 768px;
-        padding-bottom: 60px;
-        padding-top: 60px;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 1200px;
-        padding-top: 94px;
-        padding-bottom: 94px;
-    }
-    }
-    /*/
-.container {
-  padding: 0 15px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 480px) {
-  .container {
-    /*/.hero-section & {
-               padding: 0 60px;
-           }/*/
-  }
-  .container .container {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container .container {
-    width: 768px;
-    padding-bottom: 60px;
-    padding-top: 60px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container .container {
     width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;

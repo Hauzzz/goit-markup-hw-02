@@ -1,7 +1,11 @@
 .container{
-    padding: 0 15px;
+    margin-right: auto;
+    overflow-x: hidden;
+    overflow: hidden;
+    margin-left: auto;
     width: 100%;
-    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
     @media screen and (min-width: 320px) {
         width: 320px;
         padding-top: 60px;
@@ -23,43 +27,3 @@
         padding-bottom: 94px;
     }
     }
-
- /*/
-    .container{
-        padding: 0 15px;
-        width: 100%;
-        margin: 0 auto;
-        @media screen and (min-width: 480px) {
-           .container {
-            width: 480px;
-           }
-           
-
-
-           /*/.hero-section & {
-               padding: 0 60px;
-           }/*/
-        }
-
-        @media screen and (min-width: 768px) {
-            .container {
-                width: 768px;
-                padding-bottom: 60px;
-                padding-top: 60px; 
-            }
-            
-            
-
-        }
-        @media screen and (min-width: 1200px) {
-           .container {
-            width: 1200px;
-            padding-top: 94px;
-            padding-bottom: 94px; 
-           }
-           
-           
-
-        }
-        }
-     /*/
