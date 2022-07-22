@@ -209,11 +209,18 @@ display: none;
     background-color: var(--white-color);
     width: 100vw;
     height: 100vh;
-    z-index: 1;
     padding-top: 10px;
     padding-bottom: 10px;
+    transform: translateX(100%);
+    transform: transform 250ms ease-in-out;
+    z-index: 999;
     
 }
+
+.mob-menu .is-open {
+    transform: translateX(0);
+}
+
 .container-menu {
     display: flex;
     flex-direction: column;
