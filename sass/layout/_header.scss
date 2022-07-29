@@ -211,6 +211,7 @@ display: none;
     height: 100vh;
     padding-top: 10px;
     padding-bottom: 10px;
+    transform: translateX(100%);
     display: none;
     transform: transform 250ms ease-in-out;
     z-index: 1;
@@ -218,11 +219,11 @@ display: none;
 }
 
 .mob-menu.is-open {
-    display: none;
+    display: block;
+    transform: translateX(0);
 }
 
 .container-menu {
-    display: none;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
