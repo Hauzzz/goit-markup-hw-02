@@ -1351,6 +1351,7 @@ a {
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
+  bottom: 0;
 }
 
 .open-btn {
@@ -1413,7 +1414,6 @@ a {
 
 .menu-links {
   display: flex;
-  left: 0;
 }
 
 .mob-icons {
@@ -1450,6 +1450,10 @@ a {
   height: 40px;
   stroke-width: 0;
   fill: var(--black-color);
+}
+
+.menu-close:hover, .menu-close:focus {
+  color: var(--blue-color);
 }
 
 .main_pool {
