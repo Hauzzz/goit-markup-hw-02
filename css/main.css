@@ -824,15 +824,19 @@ summary {
 
 .info_table {
   background-color: var(--grey_color_s);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.infotable {
-  /*/display: flex;/*/
-  align-items: baseline;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+@media screen and (min-width: 320px) {
+  .infotable {
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -843,11 +847,12 @@ summary {
 
 @media screen and (min-width: 1200px) {
   .infotable {
-    display: flex;
-    text-align: none;
+    text-align: left;
     justify-content: none;
     align-items: none;
     flex-wrap: nowrap;
+    display: flex;
+    align-items: baseline;
   }
 }
 
@@ -858,6 +863,7 @@ summary {
 }
 
 .footer_list {
+  list-style: none;
   padding-top: 20px;
 }
 
@@ -898,6 +904,7 @@ summary {
 
 .contacts_section_footer {
   color: var(--contacts-grey);
+  display: flex;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -907,8 +914,7 @@ summary {
 }
 
 .info_table__footer-iconsdiv {
-  /*/ margin-left: 70px;/*/
-  margin-top: 60px;
+  margin-left: 70px;
 }
 
 @media screen and (min-width: 320px) {
@@ -970,7 +976,7 @@ summary {
 }
 
 .info_table__subscribe {
-  padding-top: 60px;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -998,7 +1004,8 @@ summary {
 }
 
 .sub-form {
-  /*/display: flex;/*/
+  margin-top: 20px;
+  display: flex;
 }
 
 @media screen and (min-width: 320px) {
@@ -1023,7 +1030,6 @@ summary {
 
 .sub-wrap {
   display: flex;
-  margin-top: 20px;
 }
 
 .sub-email {
@@ -1040,6 +1046,7 @@ summary {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   padding-left: 16px;
@@ -1103,7 +1110,6 @@ summary {
   justify-content: center;
   align-items: center;
   margin-left: 12px;
-  margin-top: 20px;
 }
 
 .plane {
