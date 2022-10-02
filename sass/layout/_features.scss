@@ -41,7 +41,16 @@ margin-bottom: -30px;
 
 }
 
-
+.features {
+    @media screen and (min-width: 320px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 0;
+    }
+}
 
 .features__stuffsvg{
     height: 70px;
